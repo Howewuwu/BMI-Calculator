@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA4C51427FC412400583263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C51327FC412400583263 /* AppDelegate.swift */; };
+		9CA4C51627FC412400583263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C51527FC412400583263 /* SceneDelegate.swift */; };
+		9CA4C51827FC412400583263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C51727FC412400583263 /* ViewController.swift */; };
+		9CA4C51B27FC412400583263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4C51927FC412400583263 /* Main.storyboard */; };
+		9CA4C51D27FC412400583263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4C51C27FC412400583263 /* Assets.xcassets */; };
+		9CA4C52027FC412400583263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4C51E27FC412400583263 /* LaunchScreen.storyboard */; };
+		9CC2E2CE28D24C1800C3DFB1 /* jf-jinxuan-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2C528D24C1800C3DFB1 /* jf-jinxuan-medium.otf */; };
+		9CC2E2CF28D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2C628D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-medium.otf */; };
+		9CC2E2D028D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2C728D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-heavy.otf */; };
+		9CC2E2D128D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2C828D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-heavy.otf */; };
+		9CC2E2D228D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2C928D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-medium.otf */; };
+		9CC2E2D328D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2CA28D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-bold.otf */; };
+		9CC2E2D428D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2CB28D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-bold.otf */; };
+		9CC2E2D528D24C1800C3DFB1 /* jf-jinxuan-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2CC28D24C1800C3DFB1 /* jf-jinxuan-bold.otf */; };
+		9CC2E2D628D24C1800C3DFB1 /* jf-jinxuan-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2E2CD28D24C1800C3DFB1 /* jf-jinxuan-book.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CA4C51027FC412400583263 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA4C51327FC412400583263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA4C51527FC412400583263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CA4C51727FC412400583263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CA4C51A27FC412400583263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CA4C51C27FC412400583263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA4C51F27FC412400583263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA4C52127FC412400583263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC2E2C528D24C1800C3DFB1 /* jf-jinxuan-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuan-medium.otf"; sourceTree = "<group>"; };
+		9CC2E2C628D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.1-medium.otf"; sourceTree = "<group>"; };
+		9CC2E2C728D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.0-heavy.otf"; sourceTree = "<group>"; };
+		9CC2E2C828D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.1-heavy.otf"; sourceTree = "<group>"; };
+		9CC2E2C928D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.0-medium.otf"; sourceTree = "<group>"; };
+		9CC2E2CA28D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.0-bold.otf"; sourceTree = "<group>"; };
+		9CC2E2CB28D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuanlatte-1.1-bold.otf"; sourceTree = "<group>"; };
+		9CC2E2CC28D24C1800C3DFB1 /* jf-jinxuan-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuan-bold.otf"; sourceTree = "<group>"; };
+		9CC2E2CD28D24C1800C3DFB1 /* jf-jinxuan-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-jinxuan-book.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA4C50D27FC412400583263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA4C50727FC412400583263 = {
+			isa = PBXGroup;
+			children = (
+				9CA4C51227FC412400583263 /* BMI Calculator */,
+				9CA4C51127FC412400583263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA4C51127FC412400583263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA4C51027FC412400583263 /* BMI Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA4C51227FC412400583263 /* BMI Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9CA4C51327FC412400583263 /* AppDelegate.swift */,
+				9CA4C51527FC412400583263 /* SceneDelegate.swift */,
+				9CA4C51727FC412400583263 /* ViewController.swift */,
+				9CA4C51927FC412400583263 /* Main.storyboard */,
+				9CA4C51C27FC412400583263 /* Assets.xcassets */,
+				9CA4C51E27FC412400583263 /* LaunchScreen.storyboard */,
+				9CA4C52127FC412400583263 /* Info.plist */,
+				9CC2E2C428D24C1800C3DFB1 /* JF */,
+			);
+			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		9CC2E2C428D24C1800C3DFB1 /* JF */ = {
+			isa = PBXGroup;
+			children = (
+				9CC2E2C528D24C1800C3DFB1 /* jf-jinxuan-medium.otf */,
+				9CC2E2C628D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-medium.otf */,
+				9CC2E2C728D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-heavy.otf */,
+				9CC2E2C828D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-heavy.otf */,
+				9CC2E2C928D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-medium.otf */,
+				9CC2E2CA28D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-bold.otf */,
+				9CC2E2CB28D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-bold.otf */,
+				9CC2E2CC28D24C1800C3DFB1 /* jf-jinxuan-bold.otf */,
+				9CC2E2CD28D24C1800C3DFB1 /* jf-jinxuan-book.otf */,
+			);
+			path = JF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA4C50F27FC412400583263 /* BMI Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA4C52427FC412400583263 /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
+			buildPhases = (
+				9CA4C50C27FC412400583263 /* Sources */,
+				9CA4C50D27FC412400583263 /* Frameworks */,
+				9CA4C50E27FC412400583263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMI Calculator";
+			productName = "BMI Calculator";
+			productReference = 9CA4C51027FC412400583263 /* BMI Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA4C50827FC412400583263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9CA4C50F27FC412400583263 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9CA4C50B27FC412400583263 /* Build configuration list for PBXProject "BMI Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA4C50727FC412400583263;
+			productRefGroup = 9CA4C51127FC412400583263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA4C50F27FC412400583263 /* BMI Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA4C50E27FC412400583263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC2E2D028D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-heavy.otf in Resources */,
+				9CC2E2D528D24C1800C3DFB1 /* jf-jinxuan-bold.otf in Resources */,
+				9CC2E2CE28D24C1800C3DFB1 /* jf-jinxuan-medium.otf in Resources */,
+				9CA4C52027FC412400583263 /* LaunchScreen.storyboard in Resources */,
+				9CC2E2D628D24C1800C3DFB1 /* jf-jinxuan-book.otf in Resources */,
+				9CC2E2D228D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-medium.otf in Resources */,
+				9CC2E2CF28D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-medium.otf in Resources */,
+				9CA4C51D27FC412400583263 /* Assets.xcassets in Resources */,
+				9CC2E2D328D24C1800C3DFB1 /* jf-jinxuanlatte-1.0-bold.otf in Resources */,
+				9CC2E2D128D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-heavy.otf in Resources */,
+				9CC2E2D428D24C1800C3DFB1 /* jf-jinxuanlatte-1.1-bold.otf in Resources */,
+				9CA4C51B27FC412400583263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA4C50C27FC412400583263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA4C51827FC412400583263 /* ViewController.swift in Sources */,
+				9CA4C51427FC412400583263 /* AppDelegate.swift in Sources */,
+				9CA4C51627FC412400583263 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CA4C51927FC412400583263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA4C51A27FC412400583263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CA4C51E27FC412400583263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA4C51F27FC412400583263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA4C52227FC412400583263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA4C52327FC412400583263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA4C52527FC412400583263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LADNF498R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Cal";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wushihao.BMI-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CA4C52627FC412400583263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LADNF498R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Cal";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wushihao.BMI-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA4C50B27FC412400583263 /* Build configuration list for PBXProject "BMI Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA4C52227FC412400583263 /* Debug */,
+				9CA4C52327FC412400583263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA4C52427FC412400583263 /* Build configuration list for PBXNativeTarget "BMI Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA4C52527FC412400583263 /* Debug */,
+				9CA4C52627FC412400583263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA4C50827FC412400583263 /* Project object */;
+}
